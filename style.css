@@ -1,0 +1,118 @@
+body {
+  font-family: 'DM Serif Display', serif;
+  background: #fafafa !important;
+  margin: 50px !important;
+  border: 1px solid #97afa3 !important;
+  box-sizing: border-box !important;
+}
+
+nav {
+  background-color: #97afa3;
+}
+
+.nav-link, .navbar-brand {
+  color: white;
+}
+
+nav li {
+  font-size: 1em !important;
+}
+
+nav a:hover, nav li:hover {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-item:active {
+  color: #d3d3d3;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #4e4e4e;
+}
+
+.intro a {
+  color: #4e4e4e;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  padding-left: 20px;
+  font-size: 20px;
+  margin: 48px auto;
+}
+
+.container a {
+  color: #4e4e4e;
+}
+
+.col-sm-9 {
+  margin: 24px 0px auto;
+}
+
+.col-sm-3 {
+  margin: 24px 0px auto;
+
+}
+
+footer ul {
+  display:flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+footer li {
+  padding: 10px;
+}
+
+.fa-linkedin,
+.fa-twitter,
+.fa-github {
+  font-size: 25px;
+  color: #97afa3;
+}
+
+#social-links li:hover {
+  opacity: 0.5;
+}
+
+.projects video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.projects h2 {
+  color: #4e4e4e;
+}
+
+@media only screen and (max-width: 1300px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .pic-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+  }
+  .projects h2, p {
+    text-align: center;
+  }
+}
